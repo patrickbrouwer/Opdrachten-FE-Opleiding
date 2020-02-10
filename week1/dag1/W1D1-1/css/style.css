@@ -1,0 +1,56 @@
+body {
+  background-color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+}
+
+.container {
+  display: grid;
+  width: 50%;
+  height: 100%;
+  grid-template-areas:
+    "naam foto"
+    "member-status foto"
+    "request-status request-status"
+    "approve decline";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  border: 1px solid rgba(136, 136, 136, 0.459);
+  border-radius: 10px;
+}
+
+.naam {
+  grid-area: naam;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.foto {
+  grid-area: foto;
+}
+.member-status {
+  grid-area: member-status;
+  color: #888;
+}
+.request-status {
+  grid-area: request-status;
+}
+.approve {
+  grid-area: approve;
+  width: 100%;
+  border: 2px solid green;
+  border-radius: 10px 0px 0px 10px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+}
+.decline {
+  grid-area: decline;
+  width: 100%;
+  border: 2px solid red;
+  border-radius: 0px 10px 10px 0px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5px;
+}
