@@ -1,0 +1,28 @@
+1: theguardian.com = 151.101.1.111
+2: 9 Hops
+  
+  1     2 ms     2 ms     2 ms  FRITZ-NAS [192.168.178.1]
+  2     26 ms    43 ms    34 ms  eas-twente-gw1.crs1.ams1.network.solcon.net [213.233.216.253]
+  3     6 ms     5 ms     4 ms  po1.crs1.ams2.network.solcon.net [212.45.60.102]
+  4     6 ms     5 ms     5 ms  po1.crs1.ams5.network.solcon.net [212.45.35.234]
+  5     6 ms     6 ms    22 ms  81.20.67.213
+  6     6 ms     6 ms    10 ms  ae-15.r25.amstnl02.nl.bb.gin.ntt.net [129.250.4.172]
+  7     6 ms     7 ms     7 ms  ae-5.r02.amstnl02.nl.bb.gin.ntt.net [129.250.2.179]
+  8     8 ms     6 ms     6 ms  81.20.67.246
+  9     7 ms     5 ms     6 ms  151.101.1.111
+
+3:
+Nameservers Google.com:
+NS1.GOOGLE.COM (has 12,609 domains)
+NS2.GOOGLE.COM (has 12,609 domains)
+NS3.GOOGLE.COM (has 12,609 domains)
+NS4.GOOGLE.COM (has 12,609 domains)
+
+Nameservers Wincacademy.nl:
+NS0.TRANSIP.NET (has 644,838 domains)
+NS1.TRANSIP.NL (has 146,621 domains)
+NS2.TRANSIP.EU (has 3,427 domains)
+
+4:
+Mijn eigen IP:
+IPv4: 83.247.74.163
