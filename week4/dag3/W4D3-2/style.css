@@ -1,0 +1,51 @@
+p a:hover {
+  color: lightblue;
+  font-weight: 600;
+}
+#link2:active {
+  color: red;
+  font-style: italic;
+}
+#link3:visited {
+  text-decoration: line-through;
+  /* werkt niet (Privacy and the :visited selector
+  text-decoration styling is not permitted due to the user's privacy issues.) */
+  color: yellow;
+}
+
+#input1:focus {
+  font-size: 20px;
+  color: green;
+}
+
+li {
+  display: inline-flex;
+}
+
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-direction: row;
+  background-color: darkblue;
+}
+
+.currentPage {
+  background-color: rgb(78, 108, 116);
+}
+
+ul {
+  padding: 0px;
+  justify-content: space-between;
+}
+#link1,
+#link22 {
+  color: white;
+}
+#link1:hover,
+#link22:hover,
+#search:hover {
+  background-color: lightblue;
+}
+#search:focus {
+  border: 5px solid aquamarine;
+}
