@@ -1,3 +1,4 @@
+//
 const functions = {
   isNull: function() {
     return null;
